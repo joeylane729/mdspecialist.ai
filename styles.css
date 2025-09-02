@@ -154,6 +154,7 @@ body {
     align-items: center;
     gap: 10px;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 .cta-button::before {
@@ -603,7 +604,6 @@ section {
     object-fit: cover;
     object-position: center top;
     border: 2px solid rgba(0, 255, 255, 0.3);
-    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.3));
     transition: all 0.3s ease;
 }
 
