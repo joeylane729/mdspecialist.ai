@@ -562,8 +562,10 @@ section {
     padding: 40px;
     transition: all 0.3s ease;
     display: flex;
+    flex-direction: column;
     gap: 30px;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
 }
 
 .team-member:hover {
@@ -581,6 +583,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .photo-placeholder {
@@ -643,6 +646,7 @@ section {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contact-link {
