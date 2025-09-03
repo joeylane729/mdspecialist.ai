@@ -43,6 +43,17 @@ body {
     align-items: center;
 }
 
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.logo-link:hover {
+    transform: scale(1.05);
+}
+
 .logo img {
     filter: drop-shadow(0 0 8px rgba(0, 255, 255, 0.5));
     display: block;
